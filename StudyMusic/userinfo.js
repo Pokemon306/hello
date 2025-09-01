@@ -55,10 +55,6 @@ if (!chaoxingcookie) {
         return;
     }
 
-    if( (url.includes("douyinvod") || url.includes("migu"))){
-        $done({ headers });        
-    }
-
     // 设置 Referer
     headers['Referer'] = "https://pan-yz.chaoxing.com/mobile/fileList";
     // 设置 UA
